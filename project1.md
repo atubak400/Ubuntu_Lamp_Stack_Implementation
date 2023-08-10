@@ -1,4 +1,5 @@
-# Sample Markdown File
+# Ubuntu Lamp Stack Implementation
+
 
 Welcome to this **sample Markdown file**! This file is meant to 
 demonstrate the basic elements of Markdown formatting.
