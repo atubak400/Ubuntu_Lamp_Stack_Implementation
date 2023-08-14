@@ -21,10 +21,15 @@ These are scripting languages used to develop dynamic web content and applicatio
 
 # **The steps in our implementation process include**
 a. Setting up  and Connecting to Ubuntu
+
 b. Install Apache
+
 c. Install MYSQL
+
 d. Install php
+
 e. Creating a virtual host using Apache
+
 
 ## A. **Setting up  and Connecting to Ubuntu VM**
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
