@@ -18,16 +18,18 @@ A widely used open-source relational database management system (RDBMS) that man
 #### *PHP/Perl/Python*
 These are scripting languages used to develop dynamic web content and applications. In the context of the LAMP stack, PHP is the most common choice. PHP scripts are embedded within HTML and executed on the server side. They generate dynamic content that's sent to the client's browser as HTML, allowing for interactive and data-driven web applications.
 
-## **Setting up  and Connecting to Ubuntu VM**
+## 1. **Setting up  and Connecting to Ubuntu VM**
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
 ![Creating an ubuntu ec2 instance](./Images/1.png)
+Instance Created!
 ![Instance Created](./Images/2.png)
 
 Step 2: Connect to Ubuntu Instance using Instance Connect.
 ![Connecting to our Ubuntu Instance](./Images/3.png)
+Connection Successful!
 ![Connection Successful](./Images/4.png)
 
-## **Install Apache**
+## 2. **Install Apache**
 Step 3: Update the package repository by running "sudo apt update"
 ![sudo apt update](./Images/5.png)
 Step 4: Install Apache by running "sudo apt install apache2"
