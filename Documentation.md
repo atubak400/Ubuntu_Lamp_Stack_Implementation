@@ -66,16 +66,17 @@ Step 8: Log in to mysql console by running `sudo mysql`
 
 ![sudo mysql](./Images/10.png)
 
-Step 9: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
+Step 9: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` and exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/11.png)
 
-Step 10: Open a web browser of your choice (Chrome recommended), navigate to "http://Public-IP-Address-of-ec2:80"
+Step 10: Run the MySQL secure installation script to improve security `sudo mysql_secure_installation`
 
-If you see the page below then your web server is correctly installed and accessible through the firewall.
+![sudo systemctl status apache2](./Images/12.png)
 
-![Apache home page](./Images/8.png)
+Step 11: Exit mysql shell by running `exit`
 
+![sudo systemctl status apache2](./Images/13.png)
 
 Code block:
 
