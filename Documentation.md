@@ -20,37 +20,20 @@ These are scripting languages used to develop dynamic web content and applicatio
 
 ## **Setting up  and Connecting to Ubuntu VM**
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
-
 ![Creating an ubuntu ec2 instance](./Images/1.png)
-
 ![Instance Created](./Images/2.png)
 
-Step 2: We then connect to it using instance connect.
-
+Step 2: Connect to Ubuntu Instance using Instance Connect.
 ![Connecting to our Ubuntu Instance](./Images/3.png)
-
 ![Connection Successful](./Images/4.png)
 
-
-## Lists
-
-Markdown supports both ordered and unordered lists:
-
-### Unordered List
-
-- Item 1
-- Item 2
-  - Sub-item A
-  - Sub-item B
-- Item 3
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-   1. Sub-item A
-   2. Sub-item B
+## **Install Apache**
+Step 3: Update the package repository by running "sudo apt update"
+![sudo apt update](./Images/5.png)
+Step 4: Install Apache by running "sudo apt install apache2"
+![sudo apt install apache2](./Images/6.png)
+Step 5: Verify Apache is running by running "sudo systemctl status apache2"
+![sudo systemctl status apache2](./Images/7.png)
 
 ## Links
 
