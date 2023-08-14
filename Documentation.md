@@ -63,7 +63,7 @@ If you see a green colored "active(running)", Apache successfully insstalled and
 
 ![sudo systemctl status apache2](./Images/7.png)
 
-Step 6: Open a web browser of your choice (Chrome recommended), navigate to "http://Public-IP-Address-of-ec2:80"
+Step 6: Open a web browser of your choice (Chrome recommended), navigate to `http://Public-IP-Address-of-ec2:80`
 
 If you see the page below then your web server is correctly installed and accessible through the firewall.
 
@@ -90,6 +90,37 @@ Step 10: Run the MySQL secure installation script to improve security `sudo mysq
 Step 11: Exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/13.png)
+
+
+## D. **Install PHP**
+Step 12: Use apt to install mysql-server by running `sudo apt install mysql-server`
+
+![sudo apt install mysql-server](./Images/9.png)
+
+Step 13: Log in to mysql console by running `sudo mysql`
+
+![sudo mysql](./Images/10.png)
+
+Step 14: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` and exit mysql shell by running `exit`
+
+![sudo systemctl status apache2](./Images/11.png)
+
+Step 15: Run the MySQL secure installation script to improve security `sudo mysql_secure_installation`
+
+![sudo systemctl status apache2](./Images/12.png)
+
+Step 16: Exit mysql shell by running `exit`
+
+![sudo systemctl status apache2](./Images/13.png)
+
+
+
+
+
+
+
+
+
 
 Code block:
 
