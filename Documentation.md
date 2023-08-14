@@ -18,6 +18,9 @@ A widely used open-source relational database management system (RDBMS) that man
 #### *PHP/Perl/Python*
 These are scripting languages used to develop dynamic web content and applications. In the context of the LAMP stack, PHP is the most common choice. PHP scripts are embedded within HTML and executed on the server side. They generate dynamic content that's sent to the client's browser as HTML, allowing for interactive and data-driven web applications.
 
+## **Setting up  and Connecting to Ubuntu VM**
+First, we log in to aws and create an ubuntu ec2 instance. We then connect to it using instance connect.
+![Alt Text](https://via.placeholder.com/150)
 
 
 ## Lists
@@ -51,8 +54,10 @@ You can create links in Markdown:
 
 You can embed images using the following syntax:
 
-![Alt Text](https://via.placeholder.com/150)
-
+![Alt Text](./Images/1.png)
+![Alt Text](./Images/2.png)
+![Alt Text](./Images/3.png)
+![Alt Text](./Images/4.png)
 ## Code
 
 Inline code: `print("Hello, world!")`
