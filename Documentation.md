@@ -48,11 +48,13 @@ Step 5: Verify Apache is running by running "sudo systemctl status apache2"
 
 ![sudo systemctl status apache2](./Images/7.png)
 
-Apache successfully insstalled and started on port 80!.
+Step 6: Apache successfully insstalled and started on port 80!.
 
-Step 6: Open a web browser of your choice (Chrome recommended), navigate to "http://<Public-IP-Address>:80
-"
+Step 7: Open a web browser of your choice (Chrome recommended), navigate to "http://Public-IP-Address-of-ec2:80"
 
+If you see the page below then your web browser is working correctly
+
+![Apache home page](./Images/8.png)
 
 ## Links
 
