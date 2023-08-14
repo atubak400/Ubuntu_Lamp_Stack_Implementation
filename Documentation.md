@@ -1,8 +1,8 @@
-# Ubuntu Lamp Stack Implementation
+# Ubuntu Lamp Stack Implementation on AWS
 
+## What is a LAMP Stack
 
-Welcome to this **sample Markdown file**! This file is meant to 
-demonstrate the basic elements of Markdown formatting.
+A LAMP stack is a commonly used set of software components that together provide a platform for building and hosting dynamic websites and web applications. The name "LAMP" is an acronym for the four key components that make up the stack: Linux, Apache, MySQL, and PHP/Perl/Python (usually referred to as PHP).
 
 ## Headings
 
