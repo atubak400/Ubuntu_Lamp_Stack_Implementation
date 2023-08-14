@@ -20,22 +20,39 @@ These are scripting languages used to develop dynamic web content and applicatio
 
 ## 1. **Setting up  and Connecting to Ubuntu VM**
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
+
 ![Creating an ubuntu ec2 instance](./Images/1.png)
+
 Instance Created!
+
 ![Instance Created](./Images/2.png)
 
 Step 2: Connect to Ubuntu Instance using Instance Connect.
+
 ![Connecting to our Ubuntu Instance](./Images/3.png)
+
 Connection Successful!
+
 ![Connection Successful](./Images/4.png)
 
 ## 2. **Install Apache**
 Step 3: Update the package repository by running "sudo apt update"
+
 ![sudo apt update](./Images/5.png)
+
 Step 4: Install Apache by running "sudo apt install apache2"
+
 ![sudo apt install apache2](./Images/6.png)
+
 Step 5: Verify Apache is running by running "sudo systemctl status apache2"
+
 ![sudo systemctl status apache2](./Images/7.png)
+
+Apache successfully insstalled and started on port 80!.
+
+Step 6: Open a web browser of your choice (Chrome recommended), navigate to "http://<Public-IP-Address>:80
+"
+
 
 ## Links
 
