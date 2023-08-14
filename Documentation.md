@@ -20,7 +20,11 @@ These are scripting languages used to develop dynamic web content and applicatio
 
 ## **Setting up  and Connecting to Ubuntu VM**
 First, we log in to aws and create an ubuntu ec2 instance. We then connect to it using instance connect.
-![Alt Text](https://via.placeholder.com/150)
+
+![Alt Text](./Images/1.png)
+![Alt Text](./Images/2.png)
+![Alt Text](./Images/3.png)
+![Alt Text](./Images/4.png)
 
 
 ## Lists
@@ -54,10 +58,7 @@ You can create links in Markdown:
 
 You can embed images using the following syntax:
 
-![Alt Text](./Images/1.png)
-![Alt Text](./Images/2.png)
-![Alt Text](./Images/3.png)
-![Alt Text](./Images/4.png)
+
 ## Code
 
 Inline code: `print("Hello, world!")`
