@@ -30,6 +30,9 @@ d. Installing php
 
 e. Creating a virtual host using Apache
 
+---
+
+---
 
 ## A. **Setting up and Connecting to ec2 Ubuntu Virtual Machine**
 
@@ -57,6 +60,9 @@ Connection Successful!
 
 ![Connection Successful](./Images/4.png)
 
+---
+
+---
 
 ## B. **Install Apache**
 
@@ -95,6 +101,9 @@ If you see the page below then your web server is correctly installed and access
 
 ![Apache home page](./Images/8.png)
 
+---
+
+---
 
 ## C. **Install MYSQL**
 
@@ -139,6 +148,9 @@ Step 11: Exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/13.png)
 
+---
+
+---
 
 ## D. **Install PHP**
 
