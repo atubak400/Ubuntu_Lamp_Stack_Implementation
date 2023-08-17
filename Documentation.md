@@ -207,7 +207,23 @@ Step 15: Replace the code you find in dir.conf with this:
 
 ---
 
-Step 16: Exit mysql shell by running `exit`
+Step 16: To save and exit press ecs key to exit edit-mode and enter command-mode and then type `:wq`
+
+![sudo systemctl status apache2](./Images/13.png)
+
+---
+
+---
+
+Step 17: Exit mysql shell by running `exit`
+
+![sudo systemctl status apache2](./Images/13.png)
+
+---
+
+---
+
+Step 18: Reload apache so that the changes can take effect by running `sudo systemctl reload apache2`
 
 ![sudo systemctl status apache2](./Images/13.png)
 
@@ -221,10 +237,6 @@ Step 16: Exit mysql shell by running `exit`
 
 ---
 
-
-
-
-Code block:
 
 
 
