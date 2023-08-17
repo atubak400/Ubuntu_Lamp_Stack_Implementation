@@ -34,6 +34,7 @@ e. Creating a virtual host using Apache
 ## A. **Setting up and Connecting to ec2 Ubuntu Virtual Machine**
 
 ---
+
 ---
 
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
@@ -45,6 +46,7 @@ Instance Created!
 ![Instance Created](./Images/2.png)
 
 ---
+
 ---
 
 Step 2: Connect to Ubuntu Instance using Instance Connect.
@@ -58,22 +60,34 @@ Connection Successful!
 
 ## B. **Install Apache**
 
+---
+
+---
 
 Step 3: Update the package repository by running `sudo apt update`
 
 ![sudo apt update](./Images/5.png)
 
+---
+
+---
 
 Step 4: Install Apache by running `sudo apt install apache2`
 
 ![sudo apt install apache2](./Images/6.png)
 
+---
+
+---
 
 Step 5: Verify Apache is running by running `sudo systemctl status apache2`.
 If you see a green colored "active(running)", Apache successfully insstalled and started on port 80!.
 
 ![sudo systemctl status apache2](./Images/7.png)
 
+---
+
+---
 
 Step 6: Open a web browser of your choice (Chrome recommended), navigate to `http://Public-IP-Address-of-ec2:80`
 
@@ -84,25 +98,42 @@ If you see the page below then your web server is correctly installed and access
 
 ## C. **Install MYSQL**
 
+---
+
+---
 
 Step 7: Use apt to install mysql-server by running `sudo apt install mysql-server`
 
 ![sudo apt install mysql-server](./Images/9.png)
+
+---
+
+---
 
 
 Step 8: Log in to mysql console by running `sudo mysql`
 
 ![sudo mysql](./Images/10.png)
 
+---
+
+---
+
 Step 9: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` and exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/11.png)
 
+---
+
+---
 
 Step 10: Run the MySQL secure installation script to improve security `sudo mysql_secure_installation`
 
 ![sudo systemctl status apache2](./Images/12.png)
 
+---
+
+---
 
 Step 11: Exit mysql shell by running `exit`
 
@@ -111,26 +142,41 @@ Step 11: Exit mysql shell by running `exit`
 
 ## D. **Install PHP**
 
+---
+
+---
 
 Step 12: Use apt to install mysql-server by running `sudo apt install mysql-server`
 
 ![sudo apt install mysql-server](./Images/9.png)
 
+---
+
+---
 
 Step 13: Log in to mysql console by running `sudo mysql`
 
 ![sudo mysql](./Images/10.png)
 
+---
+
+---
 
 Step 14: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` and exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/11.png)
 
+---
+
+---
 
 Step 15: Run the MySQL secure installation script to improve security `sudo mysql_secure_installation`
 
 ![sudo systemctl status apache2](./Images/12.png)
 
+---
+
+---
 
 Step 16: Exit mysql shell by running `exit`
 
