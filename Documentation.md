@@ -252,14 +252,14 @@ phpinfo();
 
 ---
 
-Step 21: Open it in browser using 'http://localhost/index.php' or 'http://yourserveripaddress/test.php' depending on what you have. Should see the image below:
+Step 21: Open it in browser using `http://localhost/index.php` or `http://yourserveripaddress/test.php` depending on what you have. Should see the image below:
 ![sudo systemctl status apache2](./Images/21.png)
 
 ---
 
 ---
 
-Step 22: For security reasons remove the index.php file by running `$ sudo rm /var/www/projectlamp/index.php`
+Step 22: For security reasons remove the index.php file by running `sudo rm /var/www/projectlamp/index.php`
 
 ---
 
