@@ -34,6 +34,7 @@ e. Creating a virtual host using Apache
 ## A. **Setting up and Connecting to ec2 Ubuntu Virtual Machine**
 
 ---
+---
 
 Step 1: Log in to aws and create an ubuntu ec2 instance. 
 
@@ -43,6 +44,7 @@ Instance Created!
 
 ![Instance Created](./Images/2.png)
 
+---
 ---
 
 Step 2: Connect to Ubuntu Instance using Instance Connect.
