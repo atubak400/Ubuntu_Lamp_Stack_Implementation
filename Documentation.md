@@ -162,7 +162,7 @@ Step 11: Exit mysql shell by running `exit`
 
 Step 12: Install PHP and required modules by running `sudo apt install php libapache2-mod-php php-mysql`
 
-![sudo apt install mysql-server](./Images/9.png)
+![sudo apt install mysql-server](./Images/14.png)
 
 ---
 
@@ -170,7 +170,7 @@ Step 12: Install PHP and required modules by running `sudo apt install php libap
 
 Step 13: Confirm your php version by running `php -v`
 
-![sudo mysql](./Images/10.png)
+![sudo mysql](./Images/15.png)
 
 ---
 
@@ -184,7 +184,7 @@ Step 13: Confirm your php version by running `php -v`
 
 Step 14: To edit the dir.conf file and change the order in which the index.php file is listed, run `sudo vim /etc/apache2/mods-enabled/dir.conf` 
 
-![sudo systemctl status apache2](./Images/11.png)
+![sudo systemctl status apache2](./Images/14.png)
 
 ---
 
@@ -201,7 +201,7 @@ Step 15: Replace the code you find in dir.conf with this:
 </IfModule>
 ```
 
-![sudo systemctl status apache2](./Images/12.png)
+![sudo systemctl status apache2](./Images/15.png)
 
 ---
 
@@ -209,7 +209,7 @@ Step 15: Replace the code you find in dir.conf with this:
 
 Step 16: To save and exit press ecs key to exit edit-mode and enter command-mode and then type `:wq`
 
-![sudo systemctl status apache2](./Images/13.png)
+![sudo systemctl status apache2](./Images/16.png)
 
 ---
 
@@ -217,7 +217,7 @@ Step 16: To save and exit press ecs key to exit edit-mode and enter command-mode
 
 Step 17: Exit mysql shell by running `exit`
 
-![sudo systemctl status apache2](./Images/13.png)
+![sudo systemctl status apache2](./Images/17.png)
 
 ---
 
@@ -225,7 +225,7 @@ Step 17: Exit mysql shell by running `exit`
 
 Step 18: Reload apache so that the changes can take effect by running `sudo systemctl reload apache2`
 
-![sudo systemctl status apache2](./Images/13.png)
+![sudo systemctl status apache2](./Images/18.png)
 
 ---
 
@@ -233,22 +233,33 @@ Step 18: Reload apache so that the changes can take effect by running `sudo syst
 
 Step 19: Create and open a new file inside root your folder by running `sudo vim /var/www/projectlamp/index.php`
 
-![sudo systemctl status apache2](./Images/13.png)
+![sudo systemctl status apache2](./Images/19.png)
 
 ---
 
 ---
 
-Step 20: Create and open a new file inside root your folder by running 
+Step 20: Paste the following php code in the blank file
 
 ```php
 <?php
 phpinfo();
 ?> 
 ```
+![sudo systemctl status apache2](./Images/20.png)
 
-Open it in browser using http://localhost/test.php or http://yourserveripaddress/test.php depending on what you have
-![sudo systemctl status apache2](./Images/13.png)
+---
+
+---
+
+Step 21: Open it in browser using 'http://localhost/index.php' or 'http://yourserveripaddress/test.php' depending on what you have. Should see the image below:
+![sudo systemctl status apache2](./Images/21.png)
+
+---
+
+---
+
+Step 22: For security reasons remove the index.php file by running `$ sudo rm /var/www/projectlamp/index.php`
 
 ---
 
