@@ -231,6 +231,29 @@ Step 18: Reload apache so that the changes can take effect by running `sudo syst
 
 ---
 
+Step 19: Create and open a new file inside root your folder by running `sudo vim /var/www/projectlamp/index.php`
+
+![sudo systemctl status apache2](./Images/13.png)
+
+---
+
+---
+
+Step 20: Create and open a new file inside root your folder by running 
+
+```php
+<?php
+phpinfo();
+?> 
+```
+
+Open it in browser using http://localhost/test.php or http://yourserveripaddress/test.php depending on what you have
+![sudo systemctl status apache2](./Images/13.png)
+
+---
+
+---
+
 ## Congratulations! You have successfully installed Apache, MySql and php on your server.
 
 ---
