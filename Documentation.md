@@ -194,11 +194,15 @@ Step 16: Exit mysql shell by running `exit`
 
 ![sudo systemctl status apache2](./Images/13.png)
 
+---
 
+---
 
+## Congratulations! You have successfully installed Apache, MySql and php on your server.
 
+---
 
-
+---
 
 
 
