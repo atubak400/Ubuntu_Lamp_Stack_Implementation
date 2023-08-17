@@ -182,9 +182,9 @@ Step 13: Confirm your php version by running `php -v`
 
 ---
 
-Step 14: To edit the dir.conf file and change the order in which the index.php file is listed, run `sudo vim /etc/apache2/mods-enabled/dir.conf` 
+Step 14: To edit the dir.conf file and change the order in which the index.php file is listed, run `sudo nano /etc/apache2/mods-enabled/dir.conf` 
 
-![sudo systemctl status apache2](./Images/14.png)
+![sudo systemctl status apache2](./Images/16.png)
 
 ---
 
@@ -200,30 +200,13 @@ Step 15: Replace the code you find in dir.conf with this:
     DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
 ```
-
-![sudo systemctl status apache2](./Images/15.png)
-
----
-
----
-
-Step 16: To save and exit press ecs key to exit edit-mode and enter command-mode and then type `:wq`
-
-![sudo systemctl status apache2](./Images/16.png)
+Save and exit the nano editor
 
 ---
 
 ---
 
-Step 17: Exit mysql shell by running `exit`
-
-![sudo systemctl status apache2](./Images/17.png)
-
----
-
----
-
-Step 18: Reload apache so that the changes can take effect by running `sudo systemctl reload apache2`
+Step 17: Reload apache so that the changes can take effect by running `sudo systemctl reload apache2`
 
 ![sudo systemctl status apache2](./Images/18.png)
 
@@ -231,7 +214,7 @@ Step 18: Reload apache so that the changes can take effect by running `sudo syst
 
 ---
 
-Step 19: Create and open a new file inside root your folder by running `sudo vim /var/www/projectlamp/index.php`
+Step 18: Create and open a new file inside root your folder by running `sudo vim /var/www/projectlamp/index.php`
 
 ![sudo systemctl status apache2](./Images/19.png)
 
@@ -239,7 +222,7 @@ Step 19: Create and open a new file inside root your folder by running `sudo vim
 
 ---
 
-Step 20: Paste the following php code in the blank file
+Step 19: Paste the following php code in the blank file
 
 ```php
 <?php
@@ -252,7 +235,7 @@ phpinfo();
 
 ---
 
-Step 21: Open it in browser using `http://localhost/index.php` or `http://yourserveripaddress/test.php` depending on what you have. Should see the image below:
+Step 20: Open it in browser using `http://localhost/index.php` or `http://yourserveripaddress/test.php` depending on what you have. Should see the image below:
 ![sudo systemctl status apache2](./Images/21.png)
 
 ---
