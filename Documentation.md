@@ -199,6 +199,7 @@ Step 15: Replace the code you find in dir.conf with this:
     # To this:
     DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
+```
 
 ![sudo systemctl status apache2](./Images/12.png)
 
