@@ -214,9 +214,7 @@ Step 17: Reload apache so that the changes can take effect by running `sudo syst
 
 ---
 
-Step 18: Create and open a new file inside root your folder by running `sudo vim /var/www/projectlamp/index.php`
-
-![sudo systemctl status apache2](./Images/19.png)
+Step 18: Create and open a new file inside root your folder by running `sudo nano /var/www/projectlamp/index.php`
 
 ---
 
@@ -229,7 +227,6 @@ Step 19: Paste the following php code in the blank file
 phpinfo();
 ?> 
 ```
-![sudo systemctl status apache2](./Images/20.png)
 
 ---
 
