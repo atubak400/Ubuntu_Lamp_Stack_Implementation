@@ -28,7 +28,9 @@ c. Installing MYSQL
 
 d. Installing php
 
-e. Creating a virtual host using Apache
+e. Enabling php on the website
+
+f. Creating a virtual host using Apache
 
 ---
 
@@ -158,7 +160,7 @@ Step 11: Exit mysql shell by running `exit`
 
 ---
 
-Step 12: Use apt to install mysql-server by running `sudo apt install mysql-server`
+Step 12: Install PHP and required modules by running `sudo apt install php libapache2-mod-php php-mysql`
 
 ![sudo apt install mysql-server](./Images/9.png)
 
@@ -166,7 +168,7 @@ Step 12: Use apt to install mysql-server by running `sudo apt install mysql-serv
 
 ---
 
-Step 13: Log in to mysql console by running `sudo mysql`
+Step 13: Confirm your php version by running `php -v`
 
 ![sudo mysql](./Images/10.png)
 
@@ -174,7 +176,13 @@ Step 13: Log in to mysql console by running `sudo mysql`
 
 ---
 
-Step 14: Set password for mysql root user by running `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` and exit mysql shell by running `exit`
+## E. **Enabling php on the website**
+
+---
+
+---
+
+Step 14: To edit the dir.conf file and change the order in which the index.php file is listed, run `sudo vim /etc/apache2/mods-enabled/dir.conf` 
 
 ![sudo systemctl status apache2](./Images/11.png)
 
@@ -182,7 +190,15 @@ Step 14: Set password for mysql root user by running `ALTER USER 'root'@'localho
 
 ---
 
-Step 15: Run the MySQL secure installation script to improve security `sudo mysql_secure_installation`
+Step 15: Replace the code you find in dir.conf with this:
+
+```apache
+<IfModule mod_dir.c>
+    # Change this:
+    # DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+    # To this:
+    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
 
 ![sudo systemctl status apache2](./Images/12.png)
 
@@ -209,9 +225,5 @@ Step 16: Exit mysql shell by running `exit`
 
 Code block:
 
-```python
-def greet(name):
-    print(f"Hello, {name}!")
 
-greet("Alice")
 
