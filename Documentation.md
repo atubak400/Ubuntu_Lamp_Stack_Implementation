@@ -30,8 +30,6 @@ d. Installing php
 
 e. Enabling php on the website
 
-f. Creating a virtual host using Apache
-
 ---
 
 ---
@@ -247,7 +245,7 @@ Step 22: For security reasons remove the index.php file by running `sudo rm /var
 
 ---
 
-## Congratulations! You have successfully installed Apache, MySql and php on your server.
+# Congratulations! You have successfully installed Apache, MySql and php on your server.
 
 ---
 
